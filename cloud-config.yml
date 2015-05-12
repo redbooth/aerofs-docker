@@ -1,6 +1,5 @@
 #cloud-config
 
-
 hostname: aerofs
 
 coreos:
