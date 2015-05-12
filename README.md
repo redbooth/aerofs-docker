@@ -8,8 +8,9 @@ OVA or QCow2 distribution.*
 ## AeroFS on Docker with CoreOS
 
 This repository contains a `cloud-config.yml` file that can be used to launch
-the AeroFS Private Cloud Appliance on the hosting platform of your choice. The
-only requirement is that CoreOS must be supported by your hosting platform.
+the AeroFS Private Cloud Appliance in one click on the hosting platform of your choice. The
+only requirement is that CoreOS must be supported by your hosting platform (CoreOS
+is supported by most public cloud hosting platforms, including AWS, DigitalOcean and Azure).
 
 When booting using cloud config, a web interface should become available on `http://<ip>`.
 Installation progress can be monitored by visiting the web interface. 
