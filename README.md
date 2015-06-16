@@ -1,10 +1,5 @@
 # AeroFS Docker
 
-*Note: this is an early-access release. For the stable version of the AeroFS
-Private Cloud please go to
-[privatecloud.aerofs.com](https://privatecloud.aerofs.com/) and use either the
-OVA or QCow2 distribution.*
-
 ## AeroFS on Docker with CoreOS
 
 This repository contains a `cloud-config.yml` file that can be used to launch
@@ -30,6 +25,5 @@ Dockerized installation, it will print `Running on http://0.0.0.0:80`
 
 For more information on how to launch the AeroFS Private Cloud appliance using
 cloud-init, please consult our
-[support documentation](https://support.aerofs.com/hc/en-us/articles/204543634).
-This is an early access release, but we'd love to hear your feedback and
-comments. For support please contact us at <support@aerofs.com>.
+[support documentation](https://support.aerofs.com/hc/en-us/articles/204736454)
+For support please contact us at <support@aerofs.com>.
