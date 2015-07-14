@@ -19,7 +19,9 @@ launch the AeroFS Private Cloud Appliance on any system that supports Docker
 
 When booting using the `aerofs-docker.sh` script, please note the script will
 run in the foreground (but can be daemonized). Once the script completes the
-Dockerized installation, it will print `Running on http://0.0.0.0:80`
+Dockerized installation, it will print `Running on http://0.0.0.0:80`.
+Now you just need to point your Web browser to your machine's IP address to begin
+[setting up your appliance](https://support.aerofs.com/hc/en-us/articles/204592814-How-do-I-set-up-my-AeroFS-Appliance-).
 
 ## Contact
 
