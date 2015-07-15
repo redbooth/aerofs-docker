@@ -23,6 +23,15 @@ Dockerized installation, it will print `Running on http://0.0.0.0:80`.
 Now you just need to point your Web browser to your machine's IP address to begin
 [setting up your appliance](https://support.aerofs.com/hc/en-us/articles/204592814-How-do-I-set-up-my-AeroFS-Appliance-).
 
+## Best Practices
+The host machine should preferably be running only AeroFS and nothing else as
+AeroFS Private Cloud Appliance can be resource-intensive under heavy usages.
+
+Please check out the [list of ports](https://support.aerofs.com/hc/en-us/articles/204624454)
+used by the AeroFS Private Cloud Appliance. The host machine needs to reserve
+these ports for the AeroFS Private Cloud Appliance and ensure the firewall is
+allowing traffic to these ports.
+
 ## Contact
 
 For more information on how to launch the AeroFS Private Cloud appliance using
