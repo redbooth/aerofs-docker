@@ -36,5 +36,5 @@ allowing traffic to these ports.
 
 For more information on how to launch the AeroFS Private Cloud appliance using
 cloud-init, please consult our
-[support documentation](https://support.aerofs.com/hc/en-us/articles/204736454)
+[support documentation](https://support.aerofs.com/hc/en-us/articles/204968364).
 For support please contact us at <support@aerofs.com>.
