@@ -1,4 +1,5 @@
-#!/bin/bash -ex
+#!/bin/bash
+set -ex
 
 mkdir -p /ship/loader/run
 [[ -f /ship/loader/run/repo ]] || echo 'registry.aerofs.com' > /ship/loader/run/repo
