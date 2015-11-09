@@ -14,8 +14,8 @@ interface.
 
 ## AeroFS On Docker, Generally
 This repository also contains a `aerofs-docker.sh` file that can be used to
-launch the AeroFS Private Cloud Appliance on any system that supports Docker
-1.5. It has been tested with Ubuntu 14.04 LTS.
+launch the AeroFS Private Cloud Appliance on any x86_64 system that supports
+Docker 1.5. It has been tested with Ubuntu 14.04 LTS.
 
 When booting using the `aerofs-docker.sh` script, please note the script will
 run in the foreground (but can be daemonized). Once the script completes the
