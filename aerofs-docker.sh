@@ -10,7 +10,8 @@ mkdir -p /ship/loader/run
   echo ${TAG} > /ship/loader/run/tag
 }
 
-IMAGES=$(docker run --rm $(cat /ship/loader/run/repo)/aerofs/loader images)
+IMAGES=$(docker run --rm -v /var/run/docker.sock:/var/run/docker.sock $(cat 
+/ship/loader/run/repo)/aerofs/loader images)
 for i in ${IMAGES}; do
     IMAGE="$(cat /ship/loader/run/repo)/${i}:$(cat /ship/loader/run/tag)"
     set +e; docker inspect "${IMAGE}" 1>/dev/null 2>/dev/null; EXIT=$?; set -e
