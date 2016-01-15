@@ -56,8 +56,8 @@ coreos:
     id: ship-enterprise
     name: Ship Enterprise
     version-id: 0.1.1
-    home-url: http://www.aerofs.com.com/
-    bug-report-url: http://support.aerofs.com.com/
+    home-url: http://www.aerofs.com/
+    bug-report-url: http://support.aerofs.com/
 
   update:
     reboot-strategy: off
