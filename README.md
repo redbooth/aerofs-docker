@@ -13,7 +13,7 @@ When booting using cloud config, a web interface should become available on
 interface. 
 
 ## AeroFS On Docker, Generally
-This repository also contains a `aerofs-docker.sh` file that can be used to
+This repository also contains an `aerofs-docker.sh` file that can be used to
 launch the AeroFS Private Cloud Appliance on any x86_64 system that supports
 Docker 1.5. It has been tested with Ubuntu 14.04 LTS.
 
