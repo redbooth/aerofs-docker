@@ -10,12 +10,24 @@ AWS, DigitalOcean and Azure).
 
 When booting using cloud config, a web interface should become available on
 `http://<ip>`. Installation progress can be monitored by visiting the web
-interface. 
+interface.
+
+Note that, due to the registry compatibility issue described in the following
+section, CoreOS [1520.9.0](https://coreos.com/releases/#1520.9.0) is the last
+version that will be able to run this script out-of-the-box. Newer releases need
+to be [configured to use Docker 1.12](https://coreos.com/blog/toward-docker-17-in-container-linux).
 
 ## AeroFS On Docker, Generally
+
 This repository also contains an `aerofs-docker.sh` file that can be used to
-launch the AeroFS Private Cloud Appliance on any x86_64 system that supports
+launch the AeroFS Private Cloud Appliance on any x86\_64 system that supports
 Docker 1.7. It has been tested with Ubuntu 14.04 LTS.
+
+Note that, at this time, the AeroFS docker images are hosted on a private
+Docker registry v1. Support for v1 registry was dropped from Docker 1.13,
+which means that, although the images themselves should work perfectly fine
+with newer versions of Docker, this script will only work with Docker 1.12.6
+or older.
 
 When booting using the `aerofs-docker.sh` script, please note the script will
 run in the foreground (but can be daemonized). Once the script completes the
